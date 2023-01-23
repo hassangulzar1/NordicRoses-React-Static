@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Merriweather&family=Noto+Serif&family=Source+Serif+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+/*! Navigation Bar  */
+header {
+  height: 60px;
+  border-bottom: 1px solid rgb(205, 201, 201);
+  background-color: white;
+
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+header::before {
+  opacity: 0.8;
+}
+html {
+  scroll-behavior: smooth;
+}
+#logo h1 {
+  margin: 12px 40px;
+  letter-spacing: 10px;
+  font-size: 2rem;
+  font-family: "Cinzel Decorative", cursive;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+#navbar ul li {
+  margin: 0 23px;
+  padding: 10px 10px;
+}
+#navbar ul li a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.1rem;
+  padding: 16px 0;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+/*! Home section  */
+#home-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.text-container {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.text-container p {
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+.img-container img {
+  width: 98vw;
+  height: 100vh;
+  margin-top: 50px;
+}
+.hr1 {
+  width: 50%;
+  border: 2px solid black;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* !About Section  */
+#about-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.details img {
+  position: relative;
+  top: 59px;
+  left: -1px;
+  width: 60px;
+}
+.details h3 {
+  margin-left: 69px;
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1px;
+}
+.details p {
+  margin-left: 68px;
+  margin-top: 8px;
+  font-family: "Source Serif Pro", serif;
+}
+.social img {
+  position: relative;
+  left: 533px;
+  top: -57px;
+  width: 152px;
+}
+.about-text p {
+  font-family: "Merriweather", serif;
+  word-spacing: 5px;
+  font-size: 1rem;
+}
+.about-text h1 {
+  margin: 23px 4px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+.jin-img img {
+  width: 60%;
+  position: relative;
+  margin-top: 50px;
+  left: 273px;
+}
+.jin-img p {
+  text-align: center;
+  margin: 10px 453px;
+  font-family: "Source Serif Pro", serif;
+}
+.afterjin-text {
+  width: 50%;
+  margin: 50px auto;
+}
+.afterjin-text p {
+  font-family: "Merriweather", serif;
+  word-spacing: 5px;
+  font-size: 1rem;
+}
+.afterjin-text li {
+  margin-top: 20px;
+  font-size: 1rem;
+  margin-left: 10px;
+  word-spacing: 5px;
+  font-family: "Merriweather", serif;
+}
+/* !Bottom social links  */
+.facebookimg img {
+  position: absolute;
+  left: 376px;
+  top: 2869px;
+}
+.twitterimg img {
+  position: absolute;
+  left: 732px;
+  top: 2869px;
+}
+.line4 img {
+  position: absolute;
+  left: 630px;
+  top: 2850px;
+}
+.tags p {
+  margin-left: 343px;
+  font-family: "Merriweather", serif;
+}
+.tags a {
+  color: black;
+}
+.tags img {
+  margin-top: 30px;
+  margin-left: 335px;
+}
+.detail-2 {
+  width: 40%;
+  margin: 20px auto;
+}
+.detail-2 img {
+  width: 50px;
+  position: relative;
+  right: 65px;
+  bottom: 50px;
+}
+
+/*! what to read next container */
+.hr3 {
+  margin: 50px 0;
+  border: 2px solid gray;
+}
+#read-container img {
+  width: 70px;
+  position: relative;
+  left: 647px;
+  bottom: 82px;
+}
+#read-container h1 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.read-next {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.read1 {
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  margin: 20px 30px;
+}
+.read1 img {
+  width: 100%;
+}
+.read1 h5 {
+  font-family: "Source Serif Pro", serif;
+  margin: 5px 25px;
+  word-spacing: 1px;
+}
+
+/*! SignUp Container  */
+.sign-up {
+  text-align: center;
+  margin-top: 50px;
+  width: 50%;
+  height: 215px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-top: 6px solid black;
+}
+.sign-up h1 {
+  font-family: "Source Serif Pro", serif;
+  margin-top: 33px;
+}
+.sign-up p {
+  margin-top: 10px;
+  margin-left: 23px;
+  margin-right: 23px;
+  font-family: "Merriweather", serif;
+}
+.sign-up input {
+  padding: 9px 15px;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  width: 20vw;
+  font-family: "Merriweather", serif;
+}
+.btn {
+  position: relative;
+  right: 4px;
+  padding: 9px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: "Merriweather", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(226, 213, 188);
+  color: black;
+  transition: 0.5s ease;
+  transform: scale(0.9);
+  font-weight: bold;
+}
+
+/* Footer  */
+
+footer {
+  background-color: black;
+  height: 60vh;
+  margin-top: 100px;
+  text-align: center;
+}
+footer img {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+footer h1 {
+  color: white;
+  margin-top: 80px;
+  letter-spacing: 10px;
+  font-size: 1.5rem;
+  font-family: "Cinzel Decorative", cursive;
+}
+footer p {
+  color: white;
+  margin: 30px 400px;
+  font-family: "Merriweather", serif;
+  word-spacing: 5px;
+}
+footer a {
+  color: white;
+  margin: 40px 10px;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+footer h5 {
+  color: white;
+  margin-top: 40px;
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
