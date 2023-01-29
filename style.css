@@ -10,22 +10,22 @@ html {
 /*! media queries  */
 @media only screen and (max-width: 576px) {
   html {
-    font-size: 30%;
+    font-size: 50%;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   html {
-    font-size: 40%;
+    font-size: 60%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   html {
-    font-size: 50%;
+    font-size: 70%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   html {
-    font-size: 60%;
+    font-size: 80%;
   }
 }
 
@@ -81,4 +81,14 @@ html {
 .text-area h1 {
   font-size: 4rem;
   font-family: "Merriweather", serif;
+}
+.text-area li {
+  word-spacing: 5px;
+  font-family: "Merriweather", serif;
+  font-size: 1.9rem;
+}
+/* !jin image  */
+.jin-img p {
+  font-family: "Source Serif Pro", serif;
+  font-size: 2rem;
 }
