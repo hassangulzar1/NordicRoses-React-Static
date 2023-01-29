@@ -61,3 +61,24 @@ html {
   letter-spacing: 0.3rem;
   font-size: 2rem;
 }
+/* !About section */
+.maskgrup1 h3 {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+}
+.maskgrup1 p {
+  font-family: "Source Serif Pro", serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+}
+/* !text area  */
+.text-area p {
+  font-size: 2rem;
+  word-spacing: 0.3rem;
+  font-family: "Merriweather", serif;
+}
+.text-area h1 {
+  font-size: 4rem;
+  font-family: "Merriweather", serif;
+}
