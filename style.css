@@ -6,6 +6,29 @@
 html {
   font-size: 62.5%;
 }
+
+/*! media queries  */
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 /* !navbar  */
 .nav1 ul {
   display: flex;
@@ -26,4 +49,15 @@ html {
 .nav1 ul li a:hover {
   color: black;
   border-bottom: 0.2rem solid black;
+}
+/* !Home section code  */
+.home-text h1 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+}
+.home-text p {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
 }
