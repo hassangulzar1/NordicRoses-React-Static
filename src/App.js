@@ -7,6 +7,8 @@ import Jin from "./Pages/Jin/Jin";
 import Tag from "./Pages/Tag/Tag";
 import Eye from "./Pages/eye Divider/Eye";
 import WhatNext from "./Pages/What Next Cards/WhatNext";
+import SignUp from "./Pages/Signup/SignUp";
+import Footer from "./Pages/Footer/Footer";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
       <Tag />
       <Eye />
       <WhatNext />
+      <SignUp />
+      <Footer />
     </>
   );
 }
